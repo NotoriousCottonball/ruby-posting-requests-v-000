@@ -18,5 +18,6 @@ class TipsController < ApplicationController
       end
 
        redirect_to tips_path
-  end
+   end
+   
 end
