@@ -15,8 +15,10 @@ class TipsController < ApplicationController
           req.params['v'] = '20160201'
           req.params['venueId'] = params[:venue_id]
           req.params['text'] = params[:tip]
-          
+      
+        # Assign the request body to a properly formatted JSON string
         # req.body = "{ "my_param": my_value }"
+        
       end
 
        redirect_to tips_path
